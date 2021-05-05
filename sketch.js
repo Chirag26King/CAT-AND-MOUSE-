@@ -13,15 +13,15 @@ var jerryStanding,jerryTeasing,jerryLast;
 function preload() {
     //load the images here
 
- bacImg=loadImage("images/garden.png");
+ bacImg=loadImage("garden.png");
 
- tomSleeping=loadAnimation("images/cat1.png");
- tomRunning=loadAnimation("images/cat2.png","images/cat3.png");
- tomSitting=loadAnimation("images/cat4.png");
+ tomSleeping=loadAnimation("cat1.png");
+ tomRunning=loadAnimation("cat2.png","cat3.png");
+ tomSitting=loadAnimation("cat4.png");
 
- jerryStanding=loadAnimation("images/mouse1.png");
- jerryTeasing=loadAnimation("images/mouse2.png","images/mouse3.png");
- jerryLast=loadAnimation("images/mouse4.png");
+ jerryStanding=loadAnimation("mouse1.png");
+ jerryTeasing=loadAnimation("mouse2.png","mouse3.png");
+ jerryLast=loadAnimation("mouse4.png");
 
 
 
